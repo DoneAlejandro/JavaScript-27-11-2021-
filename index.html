@@ -4,14 +4,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Интернет-магазин</title>
-	<link rel="stylesheet" href="style.scss">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<header>
-		<button class="btn-cart" type="button">Корзина</button>
+		<div class="basket">
+			<button class="basket-btn" type="button">Корзина</button>
+			<div class="basket-box invisible"></div>
+		</div>
 	</header>
-	<main>
+	<main class="wrapper container">
 		<div class="products"></div>
 	</main>
 	<script src="script.js"></script>
