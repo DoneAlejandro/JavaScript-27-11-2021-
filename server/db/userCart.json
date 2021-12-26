@@ -1,0 +1,14 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 2,
+            "id_product": 200,
+            "product_name": "Ноутбук",
+            "price": 1000,
+            "imgProduct": "./img/products/200.png",
+            "imgCart": "./img/cart/200.png"
+        }
+    ]
+}
